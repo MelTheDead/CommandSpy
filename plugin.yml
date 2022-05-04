@@ -1,0 +1,15 @@
+name: CommandSpy
+description: Spying on players' commands
+version: 1.0
+author: jaegerness
+api: 3.0.0
+main: CommandSpy\JaegerDevelopment\Main
+
+commands:
+  commandspy:
+    description: On CommandSpy
+    aliases: ["cspy"]
+
+permissions:
+  commandspy.jd.use:
+    default: op
